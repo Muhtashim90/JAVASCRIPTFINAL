@@ -1,0 +1,69 @@
+*, *::after, *::before{
+    padding: 0;
+    margin: 0;
+}
+html, body{
+    height: 100%;
+}
+body{
+    background: rgb(105, 165, 1);
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.card-body{
+    background: rgb(44, 213, 213);
+    color: #000000;
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+}
+.card-body:hover{
+    background: rgb(11, 88, 88);
+    color: #fff;
+    transition: 1s;
+}
+.card-body h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 15px;
+    font-size: 70px;
+    cursor: pointer;
+}
+.card-btn button{
+    padding: 10px 35px;
+    color: #2f2424;
+    border: 0;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: 0.5s;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+button#decrement{
+    background: rgb(80, 63, 235);
+    color: black;
+}
+button#decrement:hover{
+    background: blue;
+    color: #fff;
+}
+button#reset{
+    background: #e965f3;
+    color: black;
+}
+button#reset:hover{
+    background: #e9009f;
+    color: #ffff;
+}
+button#increment{
+    background: #92f68d;
+    color: black;
+}
+button#increment:hover{
+    background: #04fa09;
+    color: #fff;
+}
